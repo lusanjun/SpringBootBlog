@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:replace="theme/header::header(title='归档')"></div>
+
+<body>
+<div id="fh5co-page">
+
+		<div id="fh5co-main">
+			<div class="fh5co-narrow-content">
+				<div class="row row-bottom-padded-md">
+					<div th:each="archive:${archives}">
+					<h2 th:text="${archive.date}" style="font-size: 24px;
+    color: #666;
+    font-weight: 600;
+    line-height: 2.2em;"></h2>
+					<ul>
+						<div th:each="article:${archive.list}">
+						<span ><a style="font-size: 14px;color: #8F8F8F;" th:text="${article.title}" th:href="@{/details(id=${article.cid})}"></a></span><span style="float: right;
+    color: #C5C5C5;" th:text="${article.date}"/>
+						</div>
+					
+					</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div th:replace="theme/footer :: footer"></div>
+</body>
+</html>

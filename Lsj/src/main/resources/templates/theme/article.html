@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:replace="theme/header::header(${article.title})"></div>
+
+<body>
+<div id="fh5co-page">
+		<div id="fh5co-main">
+			<div class="fh5co-narrow-content">
+				<div class="row row-bottom-padded-md">
+					<div id="md" class="mdd"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script th:inline="javascript">
+window.onload = function() {
+   var text =[[${article.content}]]
+    var converter = new showdown.Converter();
+    var html = converter.makeHtml(text);
+    document.getElementById("md").innerHTML = html;
+}
+</script>
+<div th:replace="theme/footer :: footer"></div>
+</body>
+</html>

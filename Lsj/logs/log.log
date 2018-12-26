@@ -1,0 +1,164 @@
+2018-12-17 20:21:21.959  INFO 12728 --- [main] com.lsj.LsjApplication                   : Starting LsjApplication on DESKTOP-LUBB2N9 with PID 12728 (D:\SpringBootDemo\Lsj\target\classes started by lsj in D:\SpringBootDemo\Lsj)
+2018-12-17 20:21:21.961  INFO 12728 --- [main] com.lsj.LsjApplication                   : No active profile set, falling back to default profiles: default
+2018-12-17 20:21:23.061  INFO 12728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2018-12-17 20:21:23.081  INFO 12728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-17 20:21:23.082  INFO 12728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 20:21:23.097  INFO 12728 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin/server;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk-1.8.0_111-x64\bin;D:\jdk-1.8.0_111-x64\jre\bin;D:\cmder_mini;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\NodeJs\;D:\apache-maven-3.5.4\bin\;C:\Users\lsj\AppData\Local\Microsoft\WindowsApps;C:\Users\lsj\AppData\Roaming\npm;D:\Microsoft VS Code\bin;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE;;.]
+2018-12-17 20:21:23.175  INFO 12728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-17 20:21:23.175  INFO 12728 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1173 ms
+2018-12-17 20:21:23.400  INFO 12728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 20:21:23.566  INFO 12728 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-12-17 20:21:23.679  INFO 12728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2018-12-17 20:21:23.683  INFO 12728 --- [main] com.lsj.LsjApplication                   : Started LsjApplication in 2.06 seconds (JVM running for 2.455)
+2018-12-17 20:21:41.283  INFO 12728 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 20:21:41.283  INFO 12728 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-17 20:21:41.289  INFO 12728 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2018-12-17 20:23:40.554  INFO 9756 --- [main] com.lsj.LsjApplication                   : Starting LsjApplication on DESKTOP-LUBB2N9 with PID 9756 (D:\SpringBootDemo\Lsj\target\classes started by lsj in D:\SpringBootDemo\Lsj)
+2018-12-17 20:23:40.556  INFO 9756 --- [main] com.lsj.LsjApplication                   : No active profile set, falling back to default profiles: default
+2018-12-17 20:23:41.655  INFO 9756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2018-12-17 20:23:41.675  INFO 9756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-17 20:23:41.676  INFO 9756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 20:23:41.683  INFO 9756 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin/server;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk-1.8.0_111-x64\bin;D:\jdk-1.8.0_111-x64\jre\bin;D:\cmder_mini;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\NodeJs\;D:\apache-maven-3.5.4\bin\;C:\Users\lsj\AppData\Local\Microsoft\WindowsApps;C:\Users\lsj\AppData\Roaming\npm;D:\Microsoft VS Code\bin;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE;;.]
+2018-12-17 20:23:41.764  INFO 9756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-17 20:23:41.765  INFO 9756 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1168 ms
+2018-12-17 20:23:41.978  INFO 9756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 20:23:42.146  INFO 9756 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-12-17 20:23:42.246  INFO 9756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2018-12-17 20:23:42.250  INFO 9756 --- [main] com.lsj.LsjApplication                   : Started LsjApplication in 2.017 seconds (JVM running for 2.426)
+2018-12-17 20:23:46.950  INFO 9756 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 20:23:46.951  INFO 9756 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-17 20:23:46.955  INFO 9756 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2018-12-17 20:24:01.116  INFO 12844 --- [main] com.lsj.LsjApplication                   : Starting LsjApplication on DESKTOP-LUBB2N9 with PID 12844 (D:\SpringBootDemo\Lsj\target\classes started by lsj in D:\SpringBootDemo\Lsj)
+2018-12-17 20:24:01.120  INFO 12844 --- [main] com.lsj.LsjApplication                   : No active profile set, falling back to default profiles: default
+2018-12-17 20:24:02.409  INFO 12844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2018-12-17 20:24:02.437  INFO 12844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-17 20:24:02.437  INFO 12844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 20:24:02.450  INFO 12844 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin/server;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk-1.8.0_111-x64\bin;D:\jdk-1.8.0_111-x64\jre\bin;D:\cmder_mini;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\NodeJs\;D:\apache-maven-3.5.4\bin\;C:\Users\lsj\AppData\Local\Microsoft\WindowsApps;C:\Users\lsj\AppData\Roaming\npm;D:\Microsoft VS Code\bin;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE;;.]
+2018-12-17 20:24:02.553  INFO 12844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-17 20:24:02.553  INFO 12844 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1387 ms
+2018-12-17 20:24:02.880  INFO 12844 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 20:24:02.993  INFO 12844 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-12-17 20:24:03.103  INFO 12844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2018-12-17 20:24:03.107  INFO 12844 --- [main] com.lsj.LsjApplication                   : Started LsjApplication in 2.357 seconds (JVM running for 2.885)
+2018-12-17 20:24:13.249  INFO 12844 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 20:24:13.250  INFO 12844 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-17 20:24:13.258  INFO 12844 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2018-12-17 20:25:04.370  INFO 3656 --- [main] com.lsj.LsjApplication                   : Starting LsjApplication on DESKTOP-LUBB2N9 with PID 3656 (D:\SpringBootDemo\Lsj\target\classes started by lsj in D:\SpringBootDemo\Lsj)
+2018-12-17 20:25:04.374  INFO 3656 --- [main] com.lsj.LsjApplication                   : No active profile set, falling back to default profiles: default
+2018-12-17 20:25:05.648  INFO 3656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2018-12-17 20:25:05.674  INFO 3656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-17 20:25:05.675  INFO 3656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 20:25:05.687  INFO 3656 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin/server;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk-1.8.0_111-x64\bin;D:\jdk-1.8.0_111-x64\jre\bin;D:\cmder_mini;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\NodeJs\;D:\apache-maven-3.5.4\bin\;C:\Users\lsj\AppData\Local\Microsoft\WindowsApps;C:\Users\lsj\AppData\Roaming\npm;D:\Microsoft VS Code\bin;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE;;.]
+2018-12-17 20:25:05.780  INFO 3656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-17 20:25:05.780  INFO 3656 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1362 ms
+2018-12-17 20:25:05.868  WARN 3656 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'user'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lsj.mapper.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-12-17 20:25:05.873  INFO 3656 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-12-17 20:25:05.893  INFO 3656 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-17 20:25:06.018 ERROR 3656 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field user in com.lsj.controller.UserController required a bean of type 'com.lsj.mapper.UserRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.lsj.mapper.UserRepository' in your configuration.
+
+2018-12-17 20:25:41.003  INFO 9480 --- [main] com.lsj.LsjApplication                   : Starting LsjApplication on DESKTOP-LUBB2N9 with PID 9480 (D:\SpringBootDemo\Lsj\target\classes started by lsj in D:\SpringBootDemo\Lsj)
+2018-12-17 20:25:41.008  INFO 9480 --- [main] com.lsj.LsjApplication                   : No active profile set, falling back to default profiles: default
+2018-12-17 20:25:42.315  INFO 9480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2018-12-17 20:25:42.342  INFO 9480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-17 20:25:42.342  INFO 9480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 20:25:42.351  INFO 9480 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin/server;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk-1.8.0_111-x64\bin;D:\jdk-1.8.0_111-x64\jre\bin;D:\cmder_mini;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\NodeJs\;D:\apache-maven-3.5.4\bin\;C:\Users\lsj\AppData\Local\Microsoft\WindowsApps;C:\Users\lsj\AppData\Roaming\npm;D:\Microsoft VS Code\bin;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE;;.]
+2018-12-17 20:25:42.455  INFO 9480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-17 20:25:42.455  INFO 9480 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1394 ms
+2018-12-17 20:25:42.576  WARN 9480 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'user'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in file [D:\SpringBootDemo\Lsj\target\classes\com\lsj\mapper\UserRepository.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+2018-12-17 20:25:42.584  INFO 9480 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-12-17 20:25:42.606  INFO 9480 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-17 20:25:42.616 ERROR 9480 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'user'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in file [D:\SpringBootDemo\Lsj\target\classes\com\lsj\mapper\UserRepository.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at com.lsj.LsjApplication.main(LsjApplication.java:15) [classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in file [D:\SpringBootDemo\Lsj\target\classes\com\lsj\mapper\UserRepository.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1745) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1237) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required
+	at org.springframework.util.Assert.notNull(Assert.java:198) ~[spring-core-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.mybatis.spring.support.SqlSessionDaoSupport.checkDaoConfig(SqlSessionDaoSupport.java:74) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:73) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	... 29 common frames omitted
+
+2018-12-17 20:28:29.492  INFO 9328 --- [main] com.lsj.LsjApplication                   : Starting LsjApplication on DESKTOP-LUBB2N9 with PID 9328 (D:\SpringBootDemo\Lsj\target\classes started by lsj in D:\SpringBootDemo\Lsj)
+2018-12-17 20:28:29.496  INFO 9328 --- [main] com.lsj.LsjApplication                   : No active profile set, falling back to default profiles: default
+2018-12-17 20:28:30.733  INFO 9328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2018-12-17 20:28:30.754  INFO 9328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-17 20:28:30.754  INFO 9328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 20:28:30.763  INFO 9328 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin/server;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk-1.8.0_111-x64\bin;D:\jdk-1.8.0_111-x64\jre\bin;D:\cmder_mini;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\NodeJs\;D:\apache-maven-3.5.4\bin\;C:\Users\lsj\AppData\Local\Microsoft\WindowsApps;C:\Users\lsj\AppData\Roaming\npm;D:\Microsoft VS Code\bin;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE;;.]
+2018-12-17 20:28:30.866  INFO 9328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-17 20:28:30.866  INFO 9328 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1320 ms
+2018-12-17 20:28:31.194  INFO 9328 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 20:28:31.320  INFO 9328 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-12-17 20:28:31.448  INFO 9328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2018-12-17 20:28:31.456  INFO 9328 --- [main] com.lsj.LsjApplication                   : Started LsjApplication in 2.346 seconds (JVM running for 2.874)
+2018-12-17 20:28:38.167  INFO 9328 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 20:28:38.167  INFO 9328 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-17 20:28:38.175  INFO 9328 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2018-12-17 20:29:30.857  INFO 10152 --- [main] com.lsj.LsjApplication                   : Starting LsjApplication on DESKTOP-LUBB2N9 with PID 10152 (D:\SpringBootDemo\Lsj\target\classes started by lsj in D:\SpringBootDemo\Lsj)
+2018-12-17 20:29:30.859  INFO 10152 --- [main] com.lsj.LsjApplication                   : No active profile set, falling back to default profiles: default
+2018-12-17 20:29:31.853  INFO 10152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2018-12-17 20:29:31.870  INFO 10152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-17 20:29:31.870  INFO 10152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 20:29:31.878  INFO 10152 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin/server;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/bin;D:/pcbs-dev/csii/sts/sts-3.8.4.RELEASE/jre/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\jdk-1.8.0_111-x64\bin;D:\jdk-1.8.0_111-x64\jre\bin;D:\cmder_mini;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\NodeJs\;D:\apache-maven-3.5.4\bin\;C:\Users\lsj\AppData\Local\Microsoft\WindowsApps;C:\Users\lsj\AppData\Roaming\npm;D:\Microsoft VS Code\bin;D:\pcbs-dev\csii\sts\sts-3.8.4.RELEASE;;.]
+2018-12-17 20:29:31.955  INFO 10152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-17 20:29:31.956  INFO 10152 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1059 ms
+2018-12-17 20:29:32.178  INFO 10152 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 20:29:32.345  INFO 10152 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2018-12-17 20:29:32.440  INFO 10152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2018-12-17 20:29:32.443  INFO 10152 --- [main] com.lsj.LsjApplication                   : Started LsjApplication in 1.897 seconds (JVM running for 2.279)
+2018-12-17 20:29:35.212  INFO 10152 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 20:29:35.213  INFO 10152 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-17 20:29:35.217  INFO 10152 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms

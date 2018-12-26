@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:replace="theme/header::header(null)"></div>
+
+<body>
+<div id="fh5co-page">
+		<div id="fh5co-main">
+			<div class="fh5co-narrow-content">
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-3 col-sm-6 col-padding animate-box"
+						data-animate-effect="fadeInLeft" th:each="article : ${articles}">
+						<div class="blog-entry">
+							<a th:href="@{/details(id=${article.cid})}" class="blog-img">
+							<img th:src="${article.imgUrl}"
+								class="img-responsive"
+								alt="not found"></a>
+							<div class="desc">
+								<h3>
+									<a th:href="@{/details(id=${article.cid})}" th:text="${article.title}"></a>
+								</h3>
+								<span><small th:text="${article.date}"> </small> / 
+								<small th:text="${article.kind}"></small> 
+								</span>
+								<p th:text="${article.summry}"></p>
+								<a th:href="@{/details(id=${article.cid})}" class="lead">Read More <i
+									class="icon-arrow-right3"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div th:replace="theme/footer :: footer"></div>
+</body>
+</html>
+
